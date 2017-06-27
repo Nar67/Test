@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="textActiv1">1</string>
+    <string name="textActiv2">2</string>
 </resources>
