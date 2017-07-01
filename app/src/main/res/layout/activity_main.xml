@@ -12,6 +12,14 @@
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
 
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+        </android.support.v7.widget.Toolbar>
+
         <TextView
             android:id="@+id/text"
             android:layout_width="match_parent"
@@ -23,14 +31,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button 1"
+            android:text="Banderas"
             android:background="@android:color/holo_purple" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Button 2"
+            android:text="Calculator"
             android:layout_weight="1" />
 
         <Button
