@@ -67,6 +67,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 setText("Pulsado el boton 2");
                 break;
             case R.id.button3:
+                i = new Intent(this, MediaPlayerActivity.class);
+                startActivity(i);
                 Log.v(TAG, "Soy el boton 3");
                 setText("Pulsado el boton 3");
                 break;

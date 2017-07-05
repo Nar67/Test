@@ -18,11 +18,12 @@
         </activity>
         <activity android:name=".Activity1" />
         <activity android:name=".Activity2" />
-        <activity android:name=".Bandera"></activity>
+        <activity android:name=".Bandera" />
         <activity
             android:name=".Calculator"
             android:label="@string/title_activity_calculator"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MediaPlayerActivity"></activity>
     </application>
 
 </manifest>
